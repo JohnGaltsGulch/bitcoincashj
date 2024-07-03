@@ -1,3 +1,9 @@
+This repository is a fork of https://github.com/pokkst/bitcoincashj.
+
+In it, pokkst links to an updated repository (http://4hsesnr6mjb4qrflgf5gezjaszzoqnnisin7ywzbsv6pgcxysiaq.b32.i2p/pokkst/bitcoincashj), unfortunately that i2p link no longer works. If anyone has a copy of that repository, please contact me.
+
+---
+
 # WARNING
 This repository is no longer maintained. Please see the latest changes here:
 http://4hsesnr6mjb4qrflgf5gezjaszzoqnnisin7ywzbsv6pgcxysiaq.b32.i2p/pokkst/bitcoincashj

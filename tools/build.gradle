@@ -20,7 +20,7 @@ applicationName = "wallet-tool"
 
 task build_checkpoints(type: JavaExec) {
     description = 'Create checkpoint files to use with CheckpointManager.'
-    main = 'org.bitcoinj.tools.BuildCheckpoints'
+    mainClass = 'org.bitcoinj.tools.BuildCheckpoints' // Updated from main to mainClass due to Gradle 8.0 requirement
     if (project.hasProperty('appArgs') && appArgs.length() > 0)
         args = Arrays.asList(appArgs.split("\\s+"))
     classpath = sourceSets.main.runtimeClasspath
